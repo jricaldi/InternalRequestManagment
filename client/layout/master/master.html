@@ -3,19 +3,21 @@
 </head>
 
 <body>
-	{{>menuLateral}}
-	{{>master}}
 </body>
 
-<template name="master">
+<template name="layoutInterno">
+	{{> menuLateral}}
 	<div class="pusher">
 		<div class="container">
 			<h1 class="ui header">
 				<i class="coffee icon"></i>
 				Internal Request Managment
 			</h1>
-		  	{{>principal}}
+		  	{{> sectionSuperior}}
+		  	{{> yield}}
 	  	</div>
   	</div>
 </template>
-
+<template name="dummyTemplate">
+	isdfskfd sdf 
+</template>

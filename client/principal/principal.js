@@ -1,4 +1,4 @@
-Template.principal.events({
+Template.sectionSuperior.events({
 	'click #btnMostrarSideBar': function () {
 		$("#sideBarMenuLateral").sidebar("toggle");
 	}
