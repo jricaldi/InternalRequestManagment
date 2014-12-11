@@ -4,6 +4,6 @@ Template.menuLateral.events({
 	},
 
 	'click #lnkResponsables': function () {
-		console.log("reponsables click View");
+		Router.go("responsablesRoute")
 	}
-});
+})

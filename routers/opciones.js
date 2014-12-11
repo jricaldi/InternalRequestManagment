@@ -7,5 +7,5 @@ Router.route("/responsables",function(){
 },
 {	
 	controller: "OpcionesController",
-	name: "responsablesView"
+	name: "responsablesRoute"
 });

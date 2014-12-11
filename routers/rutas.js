@@ -6,5 +6,5 @@ Router.route("/",function(){
 	this.layout("layoutInterno");
 },
 {	
-	name: "indexView"
+	name: "indexRoute"
 });
